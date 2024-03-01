@@ -377,9 +377,13 @@ h4 {
     height: 50px;
     margin: 10px;
 }
-
+footer {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
 .FooterImg {
     width: 100%;
+    margin-bottom: 0px;
 }
 
 
