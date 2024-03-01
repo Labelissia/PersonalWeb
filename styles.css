@@ -328,13 +328,13 @@ h4 {
     width: 250px;;
 }
 
-.Schools img {
+.Education img {
     height:100px;
     
     border: solid 0.5px black;
     border-radius: 50%;  
 }
-.Schools h4 {
+.Education h4 {
     margin-bottom: 0px;
 }
 
@@ -379,7 +379,7 @@ h4 {
     margin: 10px;
 }
 footer {
-    margin-top: 50px;
+    margin-top: 200px;
 }
 .FooterImg {
     width: 100%;
