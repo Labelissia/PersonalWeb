@@ -8,7 +8,7 @@ body {
 
 
 
-.MenuSectionContainer {
+.menuSectionContainer {
     background-color: #121212;
     display: flex;
     flex-direction: row;
@@ -18,45 +18,45 @@ body {
 
 }
 
-.NameContainer {
+.nameContainer {
     display: flex;
     flex-direction: column;
     padding: 10px 50px 10px 30px;
 }
 
-.MenuContainer a {
+.menuContainer a {
     text-decoration: none;
     
     margin-right: 65px;
 }
 
-.MenuItem {    
+.menuItem {    
     display: inline-block;
     padding: 20px 10px;
     
 }
 
-.MenuItem1 {
+.menuItem1 {
     color: white;
 }
 
-.MenuItem2 {
+.menuItem2 {
     color: #65ddeb;
     font-weight: bold;
 }
 
 
-.MenuContainer a:hover{
+.menuContainer a:hover{
     color:#7db3b9
 }
-.MenuContainer a:active{
+.menuContainer a:active{
     color:#436366
 }
 
 
 
 
-.MainPictureSection {
+.mainPictureSection {
     background-image: url("./Images/fotoaparat.jpg");
     height: 94vh;
     min-width: 400px;
@@ -66,11 +66,11 @@ body {
     grid-template-rows: 3.5fr 3.5fr 1fr; 
 }
 
-.Social {
+.social {
     grid-area: 1 / 1 / 4 / 2;
 }
 
-.BigName {
+.bigName {
     grid-area: 1 / 2 / 2 / 3;  
     font-size: 3REM;
     display: flex;
@@ -82,7 +82,7 @@ body {
     color: #52B4BF;
 }
 
-.FotoContainer {    
+.fotoContainer {    
     margin-top: 20px;
     margin-right: 105px;  
     margin-left: 20px;  
@@ -93,18 +93,18 @@ body {
     
 }
 
-.KataFoto {
+.kataFoto {
     width: 100%;
     max-width: 400px;
     border-radius: 50%;
     border: solid 0.5px;    
 }
 
-.MyFoto {
+.myFoto {
     grid-area: 1/ 3 / 2 / 6;
 }
 
-.Claim {
+.claim {
     grid-area: 2 / 2 / 3 / 6;
     display: flex;
     flex-direction: column;
@@ -113,27 +113,27 @@ body {
     justify-content: flex-end;
 }
 
-.First {
+.first {
     font-size: 4rem;
     color: #52B4BF;
 }
 
-.Contacts {
+.contacts {
     grid-area: 3 / 2 / 4 / 6;
 }
 
 
-.HeaderContainer{
+.headerContainer{
     display: flex;
     align-items: center;
      margin: 0px 30px;
     
 }
 
-.Line1 {
+.line1 {
     flex:1;
 }
-.Header {
+.header {
     color: #205055;   
     margin: 50px;
     flex:1;
@@ -145,13 +145,13 @@ h2 {
      text-align: center;
    
 }
-.Line1, .Line2 {
+.line1, .line2 {
     height: 2px;
     flex:1;
     background-color: #205055;
 }
 
-.Profile p {
+.profile p {
     color: #205055;
     padding: 5px 50px;
     text-align: center;
@@ -162,12 +162,12 @@ h2 {
 
 
 
-.Experience {
+.experience {
     background-color: #e4ebec;
     padding-bottom: 60px;
     margin-top: 150px;
 }
-.WorkContainer {
+.workContainer {
     display: grid;
     grid-template-rows: repeat(6, auto);
     grid-template-columns: auto 100px 2px 100px auto;
@@ -176,59 +176,59 @@ h2 {
     color:#205055 ; 
 }
 
-.MiddleLine {
+.middleLine {
     grid-area: 1 / 3 /-1 / 4;
     background-color: #205055;
 }
 
-.Icons {
+.icons {
     height: 40px;
 }
-.Dot1 {
+.dot1 {
     grid-area: 1 / 2 / 3 / 3;  
     
 }
 
-.Dot2 {
+.dot2 {
     grid-area: 2 / 4 / 4 / 5;
     margin-top: 160px;
 }
-.Dot3 {
+.dot3 {
     grid-area: 3 / 2 / 5 / 3;
     margin-top: 280px;
 }
-.Dot4 {
+.dot4 {
     grid-area: 4 / 4 / 6 / 5;
     margin-top: 320px;
 }
-.Dot5 {
+.dot5 {
     grid-area: 5 / 2 / 7 / 3;
     margin-top: 300px;
 }
-.Dot6 {
+.dot6 {
     grid-area: 6 / 4 / 7 / 5;
     margin-top: 295px;
 }
 
-.Freelancer {
+.freelancer {
     grid-area: 1 / 1 / 3 / 2;
    
 }
 
-.Dot {
+.dot {
     
     padding-left: 35px;
 }
 
 
-.Beztecky {
+.withoutDot {
     list-style-type: none;
     text-align: right;
     margin: 0px;
     padding-inline-start: 0px;
 }
 
-.Steckou {
+.withDot {
     margin-top: 50px;
     list-style-type: none;
     padding-inline-start: 0px;
@@ -238,11 +238,11 @@ li {
 margin-bottom: 10px;
 }
 
-.Year {
+.year {
     color: black;
     font-weight: bold;
 }
-.Right {
+.right {
     padding-inline-start: 0px;
     text-align: left;
 }
@@ -258,7 +258,7 @@ h4 {
 
 
 
-.Pozitiv {
+.pozitiv {
     grid-area: 2 / 5 / 4 / -1;
     display: flex;
     flex-direction: row;
@@ -268,34 +268,34 @@ h4 {
 
 }
 
-.Gwc {
+.gwc {
     grid-area: 3 / 1 / 5 / 2;
     margin-top: 280px;
 }
 
-.Realitka {
+.realitka {
     grid-area: 4 / 5 / 6 / -1;
     margin-top: 320px;
 }
 
-.Priority {
+.priority {
     grid-area: 5 / 1 / -1 / 2;
     margin-top: 300px;
 }
 
-.Vzp {
+.vzp {
     grid-area: 6 / 5 / 7 /6 ;
     margin-top: 295px;
     margin-bottom: 30;
 }
 
-.Education {
+.education {
     height: 300px;
     color:#205055;
     padding-bottom: 50px;
 }
 
-.Schools {
+.schools {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -306,7 +306,7 @@ h4 {
     
 }
 
-.NextStudies {
+.nextStudies {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -317,34 +317,34 @@ h4 {
  
 }
 
-.HighSchoolDiv {
+.highSchoolDiv {
     margin-right: 50px;
     margin-left: 50px;
 }
 
-.SchoolDiv {
+.schoolDiv {
     width: 250px;;
 }
 
-.Education img {
+.education img {
     height:100px;
     
     border: solid 0.5px black;
     border-radius: 50%;  
 }
-.Education h4 {
+.education h4 {
     margin-bottom: 0px;
 }
 
 
 
-.NextStudies img {
+.nextStudies img {
     height:100px;
     border: solid 0.5px black;
     border-radius: 50%;  
 }
 
-.Skills {
+.skills {
     height: 300px;
     margin-top: 600px;
     background-color: #e4ebec;
@@ -353,7 +353,7 @@ h4 {
     
 }
 
-.Skills p {
+.skills p {
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
@@ -363,7 +363,7 @@ h4 {
 }
 
 
-.ContactContainer {
+.contactContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -373,7 +373,7 @@ h4 {
     gap: 50px
 
 }
-.SocialIcon {
+.socialIcon {
     height: 50px;
     margin: 10px;
 }
@@ -381,39 +381,39 @@ footer {
     margin-top: 100px;
     margin-bottom: 0px;
 }
-.FooterImg {
+.footerImg {
     width: 100%;
     margin-bottom: 0px;
 }
 
 
 @media(max-width:700px){
-    .BigName {
+    .bigName {
         font-size: 2rem;
     }
-    .First {
+    .first {
         font-size: 3rem;
         
     }
-    .Header {
+    .header {
         font-size: 2.5rem;
     }
 }
 @media(max-width:560px){
-    .BigName {
+    .bigName {
         font-size: 1.5rem;
         gap: 1.5rem;
         margin-right: 50;
     }
-    .KataFoto {
+    .kataFoto {
         margin-left: 30px;
     }
 
-    .First {
+    .first {
         font-size: 2rem;        
     }
 
-    .Claim {
+    .claim {
         justify-content: center;
     }
 
